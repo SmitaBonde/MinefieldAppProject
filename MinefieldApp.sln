@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{2C5FB414-A337-4724-93AE-FD6E7ECFAC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25902BC0-4B73-459A-B614-E676F776AD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinefieldApp", "Source\MinefieldApp\MinefieldApp.csproj", "{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinefieldApp.Tests", "Tests\MinefieldApp.Tests\MinefieldApp.Tests.csproj", "{A98586D3-15FF-4F98-83A6-EE31CF9474E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98586D3-15FF-4F98-83A6-EE31CF9474E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98586D3-15FF-4F98-83A6-EE31CF9474E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98586D3-15FF-4F98-83A6-EE31CF9474E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98586D3-15FF-4F98-83A6-EE31CF9474E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6D2AC53-88AD-4CAB-9FE2-4FBC9DCB8426} = {2C5FB414-A337-4724-93AE-FD6E7ECFAC5D}
+		{A98586D3-15FF-4F98-83A6-EE31CF9474E6} = {25902BC0-4B73-459A-B614-E676F776AD5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13E0B0B5-AD09-434B-AA4C-275C59B2D07C}
+	EndGlobalSection
+EndGlobal
